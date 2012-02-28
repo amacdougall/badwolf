@@ -212,7 +212,10 @@ call HL('iCursor', 'coal', 'tardis', 'none')
 call HL('Special', 'plain')
 
 " Comments are slightly brighter than folds, to make 'headers' easier to see.
-call HL('Comment',        'gravel')
+call HL('Comment',        'gravel', 'bg', 'italic')
+call HL('docComment',     'lightgravel', 'bg', 'italic')
+call HL('docCommentKeyword', 'gravel', 'bg', 'bold')
+call HL('wingComment',    'brightgravel', 'bg', 'italic')
 call HL('Todo',           'snow', 'bg', 'bold')
 call HL('SpecialComment', 'snow', 'bg', 'bold')
 
