@@ -159,7 +159,7 @@ call HL('CursorLine',   '', 'darkgravel', 'none')
 call HL('CursorColumn', '', 'darkgravel')
 call HL('ColorColumn',  '', 'darkgravel')
 
-call HL('MatchParen', 'dalespale', 'darkgravel', 'bold')
+call HL('MatchParen', 'tardis', 'bg', 'bold')
 
 call HL('NonText',    'deepgravel', 'bg')
 call HL('SpecialKey', 'deepgravel', 'bg')
