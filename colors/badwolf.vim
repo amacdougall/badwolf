@@ -428,7 +428,7 @@ call HL('htmlSpecialTagName', 'coffee', '', 'bold')
 call HL('htmlArg', 'coffee', '', 'none')
 
 " Stuff inside an <a> tag
-call HL('htmlLink', 'lightgravel', '', 'underline')
+call HL('htmlLink', 'lightgravel', '', '')
 
 " }}}
 " Java {{{
@@ -451,7 +451,7 @@ call HL('mailSubject', 'orange', '', 'bold')
 call HL('mailHeader', 'lightgravel', '', '')
 call HL('mailHeaderKey', 'lightgravel', '', '')
 call HL('mailHeaderEmail', 'snow', '', '')
-call HL('mailURL', 'toffee', '', 'underline')
+call HL('mailURL', 'toffee', '', '')
 call HL('mailSignature', 'gravel', '', 'none')
 
 call HL('mailQuoted1', 'gravel', '', 'none')
@@ -473,7 +473,7 @@ call HL('markdownH3', 'lime', '', 'none')
 call HL('markdownH4', 'lime', '', 'none')
 call HL('markdownH5', 'lime', '', 'none')
 call HL('markdownH6', 'lime', '', 'none')
-call HL('markdownLinkText', 'toffee', '', 'underline')
+call HL('markdownLinkText', 'toffee', '', '')
 call HL('markdownIdDeclaration', 'toffee')
 call HL('markdownAutomaticLink', 'toffee', '', 'bold')
 call HL('markdownUrl', 'toffee', '', 'bold')
